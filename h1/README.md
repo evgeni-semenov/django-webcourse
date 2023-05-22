@@ -12,7 +12,7 @@ Kokeilin ajaa palvelinta komennolla:
 Seuraavaksi alustin tietokannat:
     ./manage.py makemigrations; ./manage.py migrate
 
-Seuraavaksi loin käyttäjän kommennolla:  
+Seuraavaksi loin käyttäjän kommennolla:
     ./manage.py createsuperuser  
 
 Keksin käyttäjälle hyvän ja vahvan salasanan.
