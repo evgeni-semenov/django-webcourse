@@ -1,23 +1,29 @@
 # Kotitehtävä 1 - HELLO DJANGO
 
-Ajoin virtualenvin komennolla:  
+Ajoin virtualenvin komennolla:
+
     source env/bin/activate
 
 Asensin django frameworkin jo tunnin aikana, joten kotiläksyä varten käynnistin uuden projektin kommennolla:  
+
     django-admin startproject h1
 
 Kokeilin ajaa palvelinta komennolla:
+
     ./manage.py runserver
 
 Seuraavaksi alustin tietokannat:
+
     ./manage.py makemigrations; ./manage.py migrate
 
 Seuraavaksi loin käyttäjän kommennolla:
+
     ./manage.py createsuperuser  
 
 Keksin käyttäjälle hyvän ja vahvan salasanan.
 
 Seuraavaksi loin uuden ohjelman:
+
     ./manage.py startapp tasklist
 
 Lisätään ohjelma ´h1/settings.py´ tiedostoon kohtaan:
