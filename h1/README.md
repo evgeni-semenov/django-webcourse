@@ -1,25 +1,25 @@
 # Kotitehtävä 1 - HELLO DJANGO
 
 Ajoin virtualenvin komennolla:  
-´source env/bin/activate´ 
+    source env/bin/activate
 
 Asensin django frameworkin jo tunnin aikana, joten kotiläksyä varten käynnistin uuden projektin kommennolla:  
-´django-admin startproject h1´  
+    django-admin startproject h1
 
 Kokeilin ajaa palvelinta komennolla:
-´./manage.py runserver´
+    ./manage.py runserver
 
 Seuraavaksi alustin tietokannat:
 
-´./manage.py makemigrations; ./manage.py migrate´
+    ./manage.py makemigrations; ./manage.py migrate
 
 Seuraavaksi loin käyttäjän kommennolla:  
-´./manage.py createsuperuser´  
+    ./manage.py createsuperuser  
 
 Keksin käyttäjälle hyvän ja vahvan salasanan.
 
 Seuraavaksi loin uuden ohjelman:
-´./manage.py startapp tasklist´
+    ./manage.py startapp tasklist
 
 Lisätään ohjelma ´h1/settings.py´ tiedostoon kohtaan:
 
@@ -43,7 +43,7 @@ Sitten oli aika luomaan tietokantamallia editoimalla tasklist/models.py teidosto
 
 Taas tietokantojen alustusta:
 
-´./manage.py makemigrations; ./manage.py migrate´
+    ./manage.py makemigrations; ./manage.py migrate
 
 Tietokanta admin -näkymään editoimalla ´tasklist/admin.py´ tiedostoa:
     from django.contrib import admin
@@ -86,5 +86,5 @@ Seuraavaksi lisäsin tämän polun urls.py tiedostoon:
 
 Pävittelin tietokannat ja pääsivulle ilmestyi lopulta toivottu "Hello Django!" teksti:
 
-![Hello Django!](hello_djanog.png "Hello Django!")
+![Hello Django!](hello_django.png "Hello Django!")
 
