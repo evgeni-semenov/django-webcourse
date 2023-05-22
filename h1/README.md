@@ -10,7 +10,6 @@ Kokeilin ajaa palvelinta komennolla:
     ./manage.py runserver
 
 Seuraavaksi alustin tietokannat:
-
     ./manage.py makemigrations; ./manage.py migrate
 
 Seuraavaksi loin käyttäjän kommennolla:  
