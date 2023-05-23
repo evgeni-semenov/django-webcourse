@@ -1,6 +1,8 @@
 # Kotitehtävä 1 - HELLO DJANGO
 
-Ajoin virtualenvin komennolla:
+Minulla oli virtualevn ja Django asennettu jo ennen tämän tehtävän aloittamista.
+
+Ajoin virtualenvin komennolla:  
 
     source env/bin/activate
 
@@ -92,4 +94,9 @@ Seuraavaksi lisäsin tämän polun urls.py tiedostoon:
 Pävittelin tietokannat ja pääsivulle ilmestyi lopulta toivottu "Hello Django!" teksti:
 
 ![Hello Django!](hello_django.png "Hello Django!")
+
+# Lähteet
+
+1. [Python Web - Idea to Production - 2023](https://terokarvinen.com/2023/python-web-idea-to-production/)
+2. [Django Hello World - First front page](https://djangoforbeginners.com/hello-world/)
 
