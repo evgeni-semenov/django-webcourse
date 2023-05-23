@@ -95,6 +95,10 @@ Pävittelin tietokannat ja pääsivulle ilmestyi lopulta toivottu "Hello Django!
 
 ![Hello Django!](hello_django.png "Hello Django!")
 
+# Muotit tunnilla 23.05.
+
+Tunnilla 23.05. harjoitteltiin muottien tekoa [Teron ohjeiden](https://terokarvinen.com/2023/django-cheatsheet/) mukaisesti. 
+
 # Lähteet
 
 1. [Python Web - Idea to Production - 2023](https://terokarvinen.com/2023/python-web-idea-to-production/)

@@ -1,4 +1,4 @@
-from django.http import HttpResponse
 
-def homePageView(request):
-    return HttpResponse("Hello Django!")
+
+class AboutView(TemplateView):
+    template_name = "tasklist/about.html"
