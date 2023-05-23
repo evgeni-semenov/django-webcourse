@@ -1,0 +1,9 @@
+{% extends "tasklist/base.html"%}
+
+{% block "content"%}
+    <h1>Tasklist</h1>
+    <h2>Tässä on minun tehtävät:</h2>
+    {% for object in object_list%}
+        <p>{{ object }}</p>
+    {% endfor %}
+{% endblock "content"%}

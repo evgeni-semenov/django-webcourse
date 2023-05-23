@@ -99,6 +99,10 @@ Pävittelin tietokannat ja pääsivulle ilmestyi lopulta toivottu "Hello Django!
 
 Tunnilla 23.05. harjoitteltiin muottien tekoa [Teron ohjeiden](https://terokarvinen.com/2023/django-cheatsheet/) mukaisesti. 
 
+Lisäksi harjoiteltin tietokannan listausta pääsivulle.
+
+Päivitykset on lisätty varsinaiseen ohjelmaan.
+
 # Lähteet
 
 1. [Python Web - Idea to Production - 2023](https://terokarvinen.com/2023/python-web-idea-to-production/)
