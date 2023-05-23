@@ -1,0 +1,7 @@
+{% extends "bookreviews/base.html" %}
+
+{% block "content" %}
+    {% for object in object_list %}
+        <p>{{object.name}}: {{object.review}}</p>
+    {% endfor %}
+{% endblock "content" %}
