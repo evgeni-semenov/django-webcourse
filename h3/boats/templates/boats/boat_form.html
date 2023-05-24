@@ -1,0 +1,12 @@
+{% extends "boats/base.html" %}
+
+{% block "content" %}
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Save">
+    </form>
+    {% if object %}
+        <p><a href="/boats/{{ object.pk }}/delete">Delete</a></p>
+    {% endif %}
+{% endblock "content" %}
