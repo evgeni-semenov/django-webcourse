@@ -9,5 +9,10 @@ Book reviews weppiohjelma.
 Lomakkeiden muokkausta.
 Ohjelma päivitetty.
 
+![Book Reviews Links](book_reviews_links.png "Book reviews")
+
+![Book Reviews](book_reviews_edit.png "Book reviews")
+
+
 # Lähteet
 [Tero Karvisen Classy Django Cheatsheet](https://terokarvinen.com/2023/django-cheatsheet/)
