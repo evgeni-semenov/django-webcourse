@@ -2,6 +2,6 @@
 
 {% block "content" %}
     {% for object in object_list %}
-        <p>{{object.name}}: {{object.review}}</p>
+        <p><a href="/reviews/{{object.pk}}">{{object.name}}</a>: {{object.review}}</p>
     {% endfor %}
 {% endblock "content" %}
