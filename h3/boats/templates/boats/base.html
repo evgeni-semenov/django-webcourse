@@ -6,13 +6,13 @@
     <title>Rent a boat service</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/boats">Boats</a></li>
-            <li><a href="/bookings">Bookings</a></li>
-        </ul>
-    </nav>
-    {% block "content" %}
-    {% endblock "content" %}
+    <header>
+        <a href="/boats">Boats</a> - 
+        <a href="/bookings">Bookings</a>
+    </header>
+    <main>
+        {% block "content" %}
+        {% endblock "content" %}
+    </main>
 </body>
 </html>

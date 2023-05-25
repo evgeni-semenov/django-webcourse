@@ -4,4 +4,5 @@
 	{% for object in object_list %}
     	<p>{{object.booking_date}}: {{object.boat}}: {{object.lessor_name}}</p>
 	{% endfor %}
+    <p><a href="bookings/new">Create new booking</a></p>
 {% endblock "content" %}

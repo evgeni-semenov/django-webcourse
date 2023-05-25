@@ -1,0 +1,9 @@
+{% extends "drinks/base.html" %}
+
+{% block "content" %}
+<h1>Our Drinks Today</h1>
+    {% for object in object_list %}
+        <p><a href="/drinks/{{ object.pk }}/edit">{{object.name}}</a></p>
+    {% endfor %}
+    <p><a href="/drinks/new">CREATE NEW DRINK</a></p>
+{% endblock "content" %}
