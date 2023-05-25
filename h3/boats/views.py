@@ -17,3 +17,6 @@ class BoatCreateView(CreateView):
 class BoatDeleteView(DeleteView):
     model = Boat
     success_url = "/"
+
+class BookingListView(ListView):
+    model = Booking

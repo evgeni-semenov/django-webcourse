@@ -1,0 +1,7 @@
+{% extends "boats/base.html" %}
+
+{% block "content" %}
+	{% for object in object_list %}
+    	<p>{{object.booking_date}}: {{object.boat}}: {{object.lessor_name}}</p>
+	{% endfor %}
+{% endblock "content" %}
