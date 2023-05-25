@@ -25,5 +25,5 @@ Screenshotit:
 
 ![Bookings](bookings.png "Bookings")
 
-![Booking Admin](booking_admin_.png "Booking Admin")
+![Booking Admin](booking_admin.png "Booking Admin")
 
