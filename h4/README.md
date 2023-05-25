@@ -14,7 +14,7 @@ Screenshotit:
 
 ![Front Page](front_page.png "Front Page")
 
-## Etusivu
+## Create/Edit
 
 ![Create/Edit](create_edit.png "Create/Edit")
 
