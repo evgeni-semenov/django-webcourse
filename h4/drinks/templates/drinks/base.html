@@ -7,8 +7,15 @@
     </head>
     <body>
         <header>
-            <a href="/drinks">Drinks</a> -
-            <a href="/types">Drink Types</a>
+            <a href="/drinks">Drinks</a> 
+            - <a href="/types">Drink Types</a>
+            {% if user.username %}
+            - <a href="/logout">Logout: {{user.username}}</a>
+            {% else %}
+            - <a href="/accounts/login">Login</a>
+            - <a href="/register">Register</a>
+            {% endif %}
+
         </header>
         <main>
             {% block "content" %}
