@@ -17,3 +17,6 @@ class DrinkCreateView(CreateView):
 class DrinkDeleteView(DeleteView):
     model = Drink
     success_url = "/"
+
+class DrinkTypeListView(ListView):
+    model = DrinkType

@@ -8,7 +8,7 @@ class DrinkType(models.Model):
         
 class Drink(models.Model):
     name = models.CharField(max_length=160)
-    type_name = models.ForeignKey(DrinkType, on_delete=models.CASCADE)
+    type_name = models.ForeignKey(DrinkType, on_delete=models.CASCADE, related_name="drinks")
     alcohol_content = models.IntegerField(default=0)
 
     def __str__(self):

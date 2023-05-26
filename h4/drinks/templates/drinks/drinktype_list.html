@@ -1,0 +1,12 @@
+{% extends "drinks/base.html" %}
+
+{% block "content" %}
+<h1>Our Drink Types Listed</h1>
+    {% for drinkType in object_list %}
+        <h2>{{ drinkType }}</h2>
+        {% for drink in drinkType.drinks.all %}
+        	<p>{{ drink }}</p>
+        {% endfor %}
+    {% endfor %}
+    
+{% endblock "content" %}
